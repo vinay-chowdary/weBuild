@@ -2,8 +2,107 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <meta name="description" content="affordable and professional web design" />
+    <meta
+      name="keywords"
+      content="web design, affordable web design, professional web design"
+    />
+    <meta name="author" content="vinay chowdary" />
+    <title>About us</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">weBuild</span> Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#" class="active">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe to our news letter</h1>
+        <form action="" method="">
+          <input
+            type="email"
+            name="email-id"
+            placeholder="Enter email"
+            autofocus
+          />
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <article class="main-col">
+          <h1>Services</h1>
+          <ul id="price-list">
+            <li>
+              <h3>wesite design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                facilis nisi eum tempore tempora nostrum maiores sit adipisci
+                modi voluptas.
+              </p>
+              <p>pricing $10-$20</p>
+            </li>
+            <li>
+              <h3>website Maintenance</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                facilis nisi eum tempore tempora nostrum maiores sit adipisci
+                modi voluptas.
+              </p>
+              <p>pricing $2-$50</p>
+            </li>
+            <li>
+              <h3>wesite Hosting</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                facilis nisi eum tempore tempora nostrum maiores sit adipisci
+                modi voluptas.
+              </p>
+              <p>pricing $25-$80</p>
+            </li>
+          </ul>
+        </article>
+        <aside class="dark quote">
+          <h1>Get quote</h1>
+          <form action="">
+            <div class="name">
+              <label for="name">Name </label><br />
+              <input type="text" name="name" placeholder="Enter your name" />
+            </div>
+            <div class="email">
+              <label for="email">Email</label><br />
+              <input type="email" name="email" placeholder="Enter email" />
+            </div>
+
+            <div class="message">
+              <label for="message">Message</label><br />
+              <textarea
+                rows="8"
+                name="text"
+                placeholder="enter qoute"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">send</button>
+          </form>
+        </aside>
+      </div>
+    </section>
+    <footer>
+      <p>weBuild &copy; 2020</p>
+    </footer>
+  </body>
 </html>
